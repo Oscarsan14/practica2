@@ -1,0 +1,10 @@
+section, div{
+    border: 1px solid #000;
+}
+
+
+.background1{
+    background-image: url('/assents/images/fondo-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
