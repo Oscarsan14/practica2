@@ -1,14 +1,109 @@
-.container-fluid{
-    border: 1px solid #000 ;
-}
-
 section, div{
     border: 1px solid #000;
 }
-
 
 .background1{
     background-image: url('/assents/images/fondo-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav-link{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.new{
+    width: 73px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF5480;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+
+}
+
+.derecha{
+    text-align: right;
+}
+
+.debajo{
+    margin: auto;
+}
+
+.rosita{
+    color: #FF5480; 
+}
+
+.propietario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 58px; /* 362.5% */
+    letter-spacing: -0.1px;
+}
+.titulo{
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 164.286% */
+    letter-spacing: -0.175px;
+}
+
+.subtitulo{
+    padding-top: 30px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.1px;
+}
+
+
+
+.posicion{
+    padding-left: 80px;   
+}
+
+.miniespacio{
+    padding-left: 40px;
+}
+
+.chikito{
+    color: #FF5480;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 362.5% */
+    letter-spacing: -0.1px;
+}
+
+.grande{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; /* 161.111% */
+    letter-spacing: -0.225px;
+}
+
+.icono{
+    background-image: url(assents/images/blanco.png);
+    fill: #FFF;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+}
+
+.images{
+margin-right: -200px;
 }
