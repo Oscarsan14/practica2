@@ -78,7 +78,7 @@ section, div{
     padding-left: 40px;
 }
 
-.chikito{
+.rosita{
     color: #FF5480;
     font-family: Open Sans;
     font-size: 16px;
@@ -99,11 +99,23 @@ section, div{
 }
 
 .icono{
-    background-image: url(assents/images/blanco.png);
+    background-image: url('assents/images/blanco.png');
     fill: #FFF;
     filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
 }
 
-.images{
-margin-right: -200px;
+.chikito{
+    color: #9B9B9B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 362.5% */
+    letter-spacing: -0.1px;
+}
+
+.background2{
+    background-image: url('/assents/images/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
