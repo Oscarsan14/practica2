@@ -1,5 +1,7 @@
-section, div{
-    border: 1px solid #000;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .background1{
@@ -10,7 +12,6 @@ section, div{
 
 .nav-link{
     color: #000;
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
 }
@@ -22,7 +23,6 @@ section, div{
     border-radius: 10px;
     background: #FF5480;
     color: #FFF;
-    font-family: Open Sans;
     font-size: 16px;
 
 }
@@ -33,6 +33,8 @@ section, div{
 
 .debajo{
     margin: auto;
+    font-weight: 400;
+
 }
 
 .rosita{
@@ -50,22 +52,24 @@ section, div{
     letter-spacing: -0.1px;
 }
 .titulo{
-    font-family: Open Sans;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
     line-height: 46px; /* 164.286% */
     letter-spacing: -0.175px;
+    color: #111210;
+
+
 }
 
 .subtitulo{
     padding-top: 30px;
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 200% */
     letter-spacing: -0.1px;
+    color: #9B9B9B;
+
+
 }
 
 
@@ -80,19 +84,14 @@ section, div{
 
 .rosita{
     color: #FF5480;
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 58px; /* 362.5% */
     letter-spacing: -0.1px;
 }
 
 .grande{
     color: #000;
-    font-family: Open Sans;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 58px; /* 161.111% */
     letter-spacing: -0.225px;
@@ -106,12 +105,11 @@ section, div{
 
 .chikito{
     color: #9B9B9B;
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 58px; /* 362.5% */
     letter-spacing: -0.1px;
+    font-weight: 400;
+
 }
 
 .background2{
@@ -140,3 +138,19 @@ section, div{
     width: 100%;
 }
 
+.nav-item{
+    font-weight: 600;
+}
+
+.titulin{
+    font-weight: 700;
+}
+
+.texto{
+    font-weight: 600;
+}
+
+.centro{
+    text-align: center;
+
+}
