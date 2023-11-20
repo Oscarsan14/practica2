@@ -119,3 +119,23 @@ section, div{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.caja{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.imagen1{
+    width: 100%;
+}
+
+.background4{
+    background-image: url('/assents/images/fondo-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen2{
+    width: 100%;
+}
